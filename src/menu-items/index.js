@@ -18,118 +18,118 @@ const menuItems = {
             id: 'Dashboard',
             title: 'Dashboard',
             type: 'item',
-            url: 'https://codedthemes.gitbook.io/mantis-react/',
+            url: '/dashboard/default',
             icon: icons.QuestionOutlined,
-            external: true,
-            target: true
+            external: false,
+            target: false
         },
         {
             id: 'schedules',
             title: 'Schedules',
             type: 'item',
-            url: 'https://codedthemes.gitbook.io/mantis-react/',
+            url: '',
             icon: icons.QuestionOutlined,
-            external: true,
-            target: true
+            external: false,
+            target: false
         },
         {
             id: 'jobs',
             title: 'Jobs',
             type: 'item',
-            url: 'https://codedthemes.gitbook.io/mantis-react/',
+            url: '',
             icon: icons.QuestionOutlined,
-            external: true,
-            target: true
+            external: false,
+            target: false
         },
         {
             id: 'recurring',
             title: 'Recurring',
             type: 'item',
-            url: 'https://codedthemes.gitbook.io/mantis-react/',
+            url: '',
             icon: icons.QuestionOutlined,
-            external: true,
-            target: true
+            external: false,
+            target: false
         },
         {
             id: 'payments',
             title: 'Payments',
             type: 'item',
-            url: 'https://codedthemes.gitbook.io/mantis-react/',
+            url: '',
             icon: icons.QuestionOutlined,
-            external: true,
-            target: true
+            external: false,
+            target: false
         },
         {
             id: 'quote-requests',
             title: 'Quote Requests',
             type: 'item',
-            url: 'https://codedthemes.gitbook.io/mantis-react/',
+            url: '',
             icon: icons.QuestionOutlined,
-            external: true,
-            target: true
+            external: false,
+            target: false
         },
         {
             id: 'customers',
             title: 'Customers',
             type: 'item',
-            url: 'https://codedthemes.gitbook.io/mantis-react/',
+            url: '',
             icon: icons.QuestionOutlined,
-            external: true,
-            target: true
+            external: false,
+            target: false
         },
         {
             id: 'team',
             title: 'Team',
             type: 'item',
-            url: 'https://codedthemes.gitbook.io/mantis-react/',
+            url: '',
             icon: icons.QuestionOutlined,
-            external: true,
-            target: true
+            external: false,
+            target: false
         },
         {
             id: 'services',
             title: 'Services',
             type: 'item',
-            url: 'https://codedthemes.gitbook.io/mantis-react/',
+            url: '',
             icon: icons.QuestionOutlined,
-            external: true,
-            target: true
+            external: false,
+            target: false
         },
         {
             id: 'coupons',
             title: 'Coupons',
             type: 'item',
-            url: 'https://codedthemes.gitbook.io/mantis-react/',
+            url: '',
             icon: icons.QuestionOutlined,
-            external: true,
-            target: true
+            external: false,
+            target: false
         },
         {
             id: 'territories',
             title: 'Territories',
             type: 'item',
-            url: 'https://codedthemes.gitbook.io/mantis-react/',
+            url: '',
             icon: icons.QuestionOutlined,
-            external: true,
-            target: true
+            external: false,
+            target: false
         },
         {
             id: 'online-booking',
             title: 'Online Booking',
             type: 'item',
-            url: 'https://codedthemes.gitbook.io/mantis-react/',
+            url: '',
             icon: icons.QuestionOutlined,
-            external: true,
-            target: true
+            external: false,
+            target: false
         },
         {
             id: 'settings',
             title: 'Setting',
             type: 'item',
-            url: 'https://codedthemes.gitbook.io/mantis-react/',
+            url: '/setting',
             icon: icons.QuestionOutlined,
-            external: true,
-            target: true
+            external: false,
+            target: false
         }
     ]
 };

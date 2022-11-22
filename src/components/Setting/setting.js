@@ -70,12 +70,6 @@ const Setting = () => {
             icon: ''
         },
         {
-            title: 'Developers',
-            link: 'Manage webhooks and API credentials',
-            d: '',
-            icon: ''
-        },
-        {
             title: 'Feedback & Reviews',
             link: '',
             icon: '',
@@ -99,10 +93,10 @@ const Setting = () => {
             <h1>Settings</h1>
             <Grid container spacing={2} display="flex" alignItems="center" justify="center">
                 {data.map((row, i) => (
-                    <Grid item md={4} key={i}>
-                        <Card>
+                    <Grid item md={6} key={i}>
+                        <Card style={{ height: 120 }}>
                             <CardContent>
-                                <ListItemButton>
+                                <ListItemButton style={{ height: 85 }}>
                                     <ListItemAvatar>{row.icon}</ListItemAvatar>
                                     <ListItemText primary={<Typography variant="subtitle1">{row.title}</Typography>} secondary={row.d} />
                                 </ListItemButton>
