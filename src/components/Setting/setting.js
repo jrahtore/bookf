@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { BusinessIcon, WorkHistoryIcon } from '@mui/icons-material';
+import BusinessIcon from '@mui/icons-material/Business';
+import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 import {
     Avatar,
     AvatarGroup,
@@ -40,7 +41,7 @@ const Setting = () => {
         },
         {
             title: 'Calender Syncing',
-            d: 'Sync your zenbooker schedule to external calander apps.',
+            d: 'Sync your zenbooker schedule to external calender apps.',
             link: '',
             icon: ''
         },
@@ -98,15 +99,12 @@ const Setting = () => {
             <h1>Settings</h1>
             <Grid container spacing={2} display="flex" alignItems="center" justify="center">
                 {data.map((row, i) => (
-                    <Grid item md={4}>
+                    <Grid item md={4} key={i}>
                         <Card>
                             <CardContent>
                                 <ListItemButton>
-                                    <ListItemAvatar>{data[i]['icon']}</ListItemAvatar>
-                                    <ListItemText
-                                        primary={<Typography variant="subtitle1">{data[i]['title']}</Typography>}
-                                        secondary={data[i]['d']}
-                                    />
+                                    <ListItemAvatar>{row.icon}</ListItemAvatar>
+                                    <ListItemText primary={<Typography variant="subtitle1">{row.title}</Typography>} secondary={row.d} />
                                 </ListItemButton>
                             </CardContent>
                         </Card>
